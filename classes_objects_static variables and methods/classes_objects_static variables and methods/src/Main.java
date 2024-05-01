@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Human vasya = new Human("Вася", "m", 51);
+        Human vasya = new Human("Вася", 51);
 
         System.out.println("Имя " + vasya.name + " возраст " + vasya.age + " пол " + vasya.gender);
 
