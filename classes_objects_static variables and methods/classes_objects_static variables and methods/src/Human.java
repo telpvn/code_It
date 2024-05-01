@@ -16,4 +16,8 @@ public class Human {
         gender = humanGender;
         age = humanAge;
     }
+
+    public void walk() {
+        System.out.println(name + " прошел 10 шагов");
+    }
 }
