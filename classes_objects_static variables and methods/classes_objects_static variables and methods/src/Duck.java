@@ -9,7 +9,9 @@ public class Duck {
         this.color = color;
     }
 
+    static int footCount;
+
     public void fly() {
-        System.out.println(color + " утка по кличке " + name + " улетела в теплые края");
+        System.out.println(color + " утка по кличке " + name + " улетела в теплые края " + footCount + " ногами");
     }
 }
