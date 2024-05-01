@@ -14,4 +14,8 @@ public class Duck {
     public void fly() {
         System.out.println(color + " утка по кличке " + name + " улетела в теплые края " + footCount + " ногами");
     }
+
+    static void fly(int footCount) {
+        Duck.footCount = footCount;
+    }
 }
